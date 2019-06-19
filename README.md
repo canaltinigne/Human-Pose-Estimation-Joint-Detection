@@ -1,42 +1,42 @@
----------------------------------------------------------------------------------------------------------------------------
-HUMAN POSE ESTIMATION & JOINT DETECTION:
-Semester Project - MSc in Computer Science @ EPFL
----------------------------------------------------------------------------------------------------------------------------
+# HUMAN POSE ESTIMATION & JOINT DETECTION:
+
+## Semester Project - MSc in Computer Science @ EPFL
+---
 by
 Can Yilmaz Altinigne
 under the supervision of 
 Radhakrishna Achanta and Dorina Thanou 
 @ Swiss Data Science Center
----------------------------------------------------------------------------------------------------------------------------
-ABSTRACT:
+---
+## ABSTRACT:
 
 In this project, we aim to train a fully convolutional network for human pose segmentation. For this purpose, we use U-Net 
 architecture which is mainly used in segmentation tasks. Additionally, we change the convolution layers with the harmonic 
 convolution layers to test if we can make learning faster. Then we train a combined model based on the best segmentation 
 model to find accurate human pose segmentation masks and joint locations on human body concurrently.
----------------------------------------------------------------------------------------------------------------------------
-DATASET:
+---
+## DATASET:
 
 Data samples that we use in order to create our own datasets are from Leeds Sports Images Dataset [1], MPII Human Pose 
 Dataset [2] and Fashion Dataset [3].
----------------------------------------------------------------------------------------------------------------------------
-CREATING TARGET VALUES:
+---
+## CREATING TARGET VALUES:
 
 MASKS - Mask-RCNN: https://github.com/matterport/Mask_RCNN
 JOINT LOCATIONS - OpenPose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
----------------------------------------------------------------------------------------------------------------------------
-MODELS:
+---
+## MODELS:
 
 We implemented U-Net models using Keras framework. Also we use harmonic networks in order to check if the learning process 
 is faster than regular convolutions, and also we may utilize rotational invariance feature of harmonic networks even though 
 the most images do not suffer from the rotation problem using PyTorch and a GitHub library [4].
----------------------------------------------------------------------------------------------------------------------------
-ENVIRONMENT:
+---
+## ENVIRONMENT:
 
 You can create the same Conda environment using .yaml file in /env folder. Also you can find the Python libraries in 
 /env/requirements.txt
----------------------------------------------------------------------------------------------------------------------------
-DIRECTORIES:
+---
+## DIRECTORIES:
 
 * /
 |----->	* /data
@@ -108,8 +108,8 @@ DIRECTORIES:
 |
 |----->	* report.pdf: Final Project Report
 
----------------------------------------------------------------------------------------------------------------------------
-REFERENCES:
+---
+## REFERENCES:
 
 [1] S. Johnson and M. Everingham, “Clustered pose and nonlinear appearance models for human pose estimation.” in BMVC, 
 vol. 2, no. 4, 2010, p. 5.
@@ -121,4 +121,4 @@ art analysis,” in Proceedings of the IEEE Conference on computer Vision and Pa
 neural network,” in Proceedings of the IEEE International Conference on Computer Vision, 2015, pp. 1386–1394.
 
 [4] https://github.com/jatentaki/harmonic
----------------------------------------------------------------------------------------------------------------------------
+---
