@@ -1,4 +1,4 @@
-# HUMAN POSE ESTIMATION & JOINT DETECTION:
+# Human Pose Estimation & Joint Detection:
 
 ## Semester Project - MSc in Computer Science @ EPFL
 
