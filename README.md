@@ -2,11 +2,11 @@
 
 ## Semester Project - MSc in Computer Science @ EPFL
 
-by
-Can Yilmaz Altinigne
-under the supervision of 
-Radhakrishna Achanta and Dorina Thanou 
-@Swiss Data Science Center
+by <br>
+_Can Yilmaz Altinigne_ <br>
+under the supervision of <br>
+_Radhakrishna Achanta_ and _Dorina Thanou_ <br>
+**@ Swiss Data Science Center** <br>
 
 ## Abstract:
 
@@ -18,7 +18,7 @@ model to find accurate human pose segmentation masks and joint locations on huma
 ## Dataset:
 
 Data samples that we use in order to create our own datasets are from Leeds Sports Images Dataset [1], MPII Human Pose 
-Dataset [2] and Fashion Dataset [3].
+Dataset [2] and Fashion Dataset [3]. Since it is nearly 10 GB, the dataset couldn't be shared here.
 
 ## Creating Target Values:
 
